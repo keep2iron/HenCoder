@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <io.github.keep2iron.hencoder.view.JiKeView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:jv_is_click="true"
+        app:jv_number="30"/>
+
+    <io.github.keep2iron.hencoder.view.JiKeView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:jv_is_click="false"
+        app:jv_number="29"/>
+
+    <io.github.keep2iron.hencoder.view.JiKeView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:jv_is_click="false"
+        app:jv_number="99"/>
+
+    <io.github.keep2iron.hencoder.view.JiKeView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:jv_is_click="false"
+        app:jv_number="999"/>
+
+    <io.github.keep2iron.hencoder.view.JiKeView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:jv_is_click="false"
+        app:jv_number="6039"/>
+
+    <io.github.keep2iron.hencoder.view.JiKeView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:jv_is_click="true"
+        app:jv_number="6060"/>
+
+</LinearLayout>

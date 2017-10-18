@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="JiKeView">
+        <attr name="jv_number" format="integer"/>
+        <attr name="jv_is_click" format="boolean"/>
+    </declare-styleable>
+
+</resources>
