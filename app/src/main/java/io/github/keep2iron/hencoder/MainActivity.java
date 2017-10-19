@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         FragmentPagerAdapter adapter = new FragmentPagerAdapter(getSupportFragmentManager()) {
             String[] title = new String[]{"即刻", "薄荷", "小米", "Flipboard"};
-            int[] layoutRes = new int[]{R.layout.frag_jike, R.layout.frag_bohe,R.layout.frag_xiaomi};
+            int[] layoutRes = new int[]{R.layout.frag_jike, R.layout.frag_bohe, R.layout.frag_xiaomi, R.layout.frag_filpboard};
 
             @Override
             public CharSequence getPageTitle(int position) {
